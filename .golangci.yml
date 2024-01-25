@@ -32,3 +32,13 @@ issues:
 run:
   issues-exit-code: 1
   timeout: 10m
+linters-settings:
+  depguard:
+    rules:
+      Main:
+        list-mode: lax # allow unless explicitely denied
+        files:
+          - $all
+        allow:
+          - $gostd
+          - github.com/

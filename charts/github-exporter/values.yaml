@@ -18,9 +18,9 @@ secret:
 deployment:
   replicaCount: 1
   image:
-    repository: ghcr.io/cpanato/github_actions_exporter
-    tag: v0.6.1
-    digest: sha256:39d4c45327d2ec0f4fbac3197f5a862da49d66f775d7844c899f5158db95f37e
+    repository: ghcr.io/rguliyev/github_actions_exporter
+    tag: v0.6.2
+    digest: sha256:5d200bc2c8c0cf5e98092c0fbeb56c0ecfdf7929e1bcc4892d5ff9846b755293
     pullPolicy: IfNotPresent
 
   podLabels: {}

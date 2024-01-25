@@ -12,10 +12,10 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/cpanato/github_actions_exporter/model"
 	"github.com/go-kit/log"
 	"github.com/go-kit/log/level"
 	"github.com/google/go-github/v58/github"
+	"github.com/rguliyev/github_actions_exporter/model"
 )
 
 // WorkflowMetricsExporter struct to hold some information

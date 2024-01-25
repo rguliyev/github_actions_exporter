@@ -67,8 +67,8 @@ jobs:
 
       - name: sign image
         run: |
-          DIGEST=$(crane digest ghcr.io/cpanato/github_actions_exporter:${{ steps.get_tag.outputs.tag_name }})
-          cosign sign "ghcr.io/cpanato/github_actions_exporter@${DIGEST}"
+          DIGEST=$(crane digest ghcr.io/rguliyev/github_actions_exporter:${{ steps.get_tag.outputs.tag_name }})
+          cosign sign "ghcr.io/rguliyev/github_actions_exporter@${DIGEST}"
         env:
           COSIGN_YES: "true"
 

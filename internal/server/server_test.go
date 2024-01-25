@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cpanato/github_actions_exporter/internal/server"
 	"github.com/go-kit/log"
 	"github.com/google/go-github/v58/github"
+	"github.com/rguliyev/github_actions_exporter/internal/server"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
